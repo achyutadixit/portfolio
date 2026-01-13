@@ -1,17 +1,32 @@
 body {
     background-color: black;
-    display: flex;
+    display:flex;
     flex-direction: column;
+    justify-content: flex-end;
+    font-family: sans-serif;
 }
 
 h1 {
+    display: flex;
+    flex-basis: 30vh;
+    justify-content: center;
+    text-transform: uppercase;
+    align-items:flex-end;  
     font-family: "Audiowide", sans-serif;
     font-size: calc(2rem + 4vw);
-    text-transform: uppercase;
-
+    margin: 0;
 }
 
 h1, h2, p{
   color:white;
   text-align: center;
+}
+
+#nav-bar {
+    margin: 2vh;
+    display: flex;
+    align-self: center;
+    gap: 30px;
+    color: white;
+    font: serif;
 }
