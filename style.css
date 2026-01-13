@@ -1,39 +1,17 @@
 body {
-    margin: 0;
-    height: 100vh;
-    background: black;
+    background-color: black;
     display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-#intro {
-    width: min(90%, 900px);
-    color: white;
-    text-align: center;
+    flex-direction: column;
 }
 
 h1 {
     font-family: "Audiowide", sans-serif;
-    font-weight: 400;
+    font-size: calc(2rem + 4vw);
     text-transform: uppercase;
 
-    /* magic responsive font */
-    font-size: clamp(2.5rem, 8vw, 7rem);
-    line-height: 1.05;
 }
 
-h2 {
-    font-family: system-ui, sans-serif;
-    font-size: clamp(1rem, 3vw, 1.4rem);
-    letter-spacing: 1px;
-    opacity: 0.85;
+h1, h2, p{
+  color:white;
+  text-align: center;
 }
-
-p {
-    font-family: system-ui, sans-serif;
-    font-size: clamp(0.9rem, 2.5vw, 1rem);
-    opacity: 0.6;
-    margin-top: 0.3rem;
-}
-
