@@ -6,22 +6,6 @@ body {
     font-family: sans-serif;
 }
 
-h1 {
-    display: flex;
-    flex-basis: 30vh;
-    justify-content: center;
-    text-transform: uppercase;
-    align-items:flex-end;  
-    font-family: "Audiowide", sans-serif;
-    font-size: calc(2rem + 4vw);
-    margin: 0;
-}
-
-h1, h2, p{
-  color:white;
-  text-align: center;
-}
-
 #nav-bar {
     margin: 2vh;
     display: flex;
@@ -30,3 +14,19 @@ h1, h2, p{
     color: white;
     font: serif;
 }
+
+
+#nav-bar  a:link, a:visited, a:active {
+  padding: 8px;
+  color: inherit; /* or specify a color like 'black' or '#000000' */
+  text-decoration: none;
+}
+
+#nav-bar a:hover {
+    color: black;
+    background-color: white;
+    padding: 6px;
+    border: white solid 2px;
+    border-radius: 20px;
+}
+
